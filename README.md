@@ -49,7 +49,7 @@ It will not compile because ‘a’ is final.
 It will not compile because method setIt() cannot change x.link.
 It will print 5, 10.
 It will print 10, 10.
-x It will throw an exception when run.
+- [x] It will throw an exception when run.
 
 
 __________________________________________________
@@ -69,7 +69,7 @@ The are 1 correct answers
 
 1
 2
-x 3
+- [x] 3
 4
 5
 
@@ -98,8 +98,8 @@ public void switchTest(byte x)
 
 The are 1 correct answers
 
-True
-x False
+- [x] True
+False
 
 
 _____________________________________________________
@@ -184,7 +184,7 @@ The are 1 correct answers
 
 Compile time error.
 It will print true;
-It will print false;
+- [x] It will print false;
 Runtime error.
 It will print nothing.
 
@@ -236,9 +236,9 @@ Which of the following statements are correct?
 The are 1 correct answers
 
 This will compile and run without any errors or exception.
-x This will compile if ‘throws Exception’ is added at line //2
+This will compile if ‘throws Exception’ is added at line //2
 This will compile if ‘throws Exception’ is added at line //4
-This will compile if ‘throws Exception’ is added at line //2 as well as //4
+- [x] This will compile if ‘throws Exception’ is added at line //2 as well as //4
 This will compile if  line marked // 1 is enclosed in a try – catch block.
 
 
@@ -275,7 +275,7 @@ The are 1 correct answers
 Good
 Bad
 Exception at runtime saying division by Zero.
-It will not compile.
+- [x] It will not compile.
 None of the above.
 
 
@@ -323,7 +323,7 @@ null 0 null 1
 0 1
 0 1 (There is a space before 0 and 1)
 null null
-x It will throw a RuntimeException at run time.
+- [x] It will throw a RuntimeException at run time.
 
 
 
@@ -336,9 +336,9 @@ The are 3 correct answers
 
 float f1 = 1.0;
 float f = 43e1;
-x float f = -1;
-x float f = 0x0123;
-x float f = 4;
+- [x] float f = -1;
+- [x] float f = 0x0123;
+- [x] float f = 4;
 
 
 
@@ -370,7 +370,7 @@ The are 1 correct answers
 1, 2, 3, 4
 1, 2
 1, 2, 3
-x 1, 3, 4
+- [x] 1, 3, 4
 ___________________________________________________
 
 12 / 45
@@ -403,7 +403,7 @@ The are 1 correct answers
 Line 2 correctly overrides the method at line 1.
 Line 2 correctly overloads the method at line 1.
 There is neither overloading nor overriding happening in the given code but the program will compile fine.
-x The program will not compile.
+- [x] The program will not compile.
 The program will compile and print 4.
 
 
@@ -422,8 +422,8 @@ t3 = new TestClass();
 The are 1 correct answers
 
 2 Objects, 3 references.
-2 Objects, 4 references.
-x 3 Objects, 2 references.
+- [x] 2 Objects, 4 references.
+3 Objects, 2 references.
 2 Objects, 2 references.
 None of the above.
 
@@ -449,7 +449,7 @@ System.out.println(b = c);
 The are 1 correct answers
 
 0
-x 1
+- [x]  1
 2
 true
 false
@@ -487,7 +487,7 @@ The are 1 correct answers
 The code will fail to compile.
 The program will print str1 and str1.
 The program will print str1 and str1str2
-x The program will print str1str2 and str1
+- [x] The program will print str1str2 and str1
 The program will print str1str2 and str1str2
 
 
@@ -615,17 +615,10 @@ ___________________________________________________
 19 / 45
 Assuming the declaration of int x = 0;, which of the following code snippets will compile without any errors?
 The are 3 correct answers
-while (false) { x=3; }
+- [x] while (false) { x=3; }
 if (false) { x=3; }
-x do{ x = 3; } while(false);
-x for( int i = 0; i< 0; i++) x = 3;
-
-
-
-
-
-
-
+- [x]  do{ x = 3; } while(false);
+- [x]  for( int i = 0; i< 0; i++) x = 3;
 
 ___________________________________________________
 
@@ -652,8 +645,8 @@ InitTest() { si += 10; }
 void InitTest(){ si = 5; i = bool ? 1000 : 2000;}
 { i = 1000; }
 InitTest() { si += 10; }
-x InitTest(boolean flag) { bool  = flag; }
-None of the above.
+InitTest(boolean flag) { bool  = flag; }
+- [x] None of the above.
 
 
 
@@ -699,63 +692,8 @@ The are 1 correct answers
 BIG will never be followed be anything else.
 SMALL will never follow anything else.
 SMALL will always be followed be CORRECT.
-It will not compile.
+- [x] It will not compile.
 It’ll throw an exception at runtime.
-
-
-
-
-
-
-
-
-
-
-___________________________________________________
-
-21 / 45
-Assuming that a valid integer will be passed in the command line as first argument, which statements regarding the following code are correct?
-
-public class TestClass
-
-{
-
-   public static void main(String args[])
-
-   {
-
-      int x = Integer.parseInt(args[0]);
-
-      switch(x)
-
-      {
-
-         case x < 5 : System.out.println(“BIG”); break;
-
-         case x > 5 : System.out.println(“SMALL”);
-
-         default : System.out.println(“CORRECT”); break;
-
-      }
-
-   }
-
-}
-
-The are 1 correct answers
-
-BIG will never be followed be anything else.
-SMALL will never follow anything else.
-x SMALL will always be followed be CORRECT.
-It will not compile.
-It’ll throw an exception at runtime.
-
-
-
-
-
-
-
 
 ___________________________________________________
 
@@ -763,11 +701,11 @@ ___________________________________________________
 22 / 45
 Which of the following are NOT valid operators in Java?
 The are 4 correct answers
-x sizeof
-<<<
-x instanceof
-x mod
-x equals
+- [x]  sizeof
+- [x] <<< instanceof
+    instanceof
+ [x]  mod
+- [x]  equals
 
 
 
@@ -801,8 +739,8 @@ Note: You will see real exam questions written in the same format. The question,
 
 The are 1 correct answers
 
-true
-x false
+- [x] true
+false
 compilation failure
 exception at run time
 
@@ -832,7 +770,7 @@ What will the following code snippet print?
 The are 1 correct answers
 
 49
-x 48
+- [x]  48
 37
 36
 38
@@ -845,10 +783,10 @@ ___________________________________________________
 Which of the following operators can be used in conjunction with a String object?
 The are 3 correct answers
 
-x +
+- [x]  +
 ++
-x +=
-x .
+- [x]  +=
+- [x] .
 *
 
 
@@ -899,10 +837,10 @@ The are 2 correct answers
 
 A
 B
-x C
+- [x] C
 D
-E
-x F
+- [x] E
+- [x]  F
 
 
 ___________________________________________________
@@ -911,12 +849,12 @@ ___________________________________________________
 Which of these are keywords in Java?
 The are 4 correct answers
 
-default
-x null
-x String
-x throws
-x long
-strictfp
+- [x] default
+null
+String
+- [x] throws
+- [x] long
+- [x] strictfp
 
 
 
@@ -946,11 +884,11 @@ Which two lines can be inserted at locations marked //1 and //2?
 The are 2 correct answers
 
 import java.lang.*;  at //1
-x import java.util.*;  at //1
-package test;  at //1
+import java.util.*;  at //1
+- [x] package test;  at //1
 package a.b;  at //2
 import java.*;  at //2
-import java.lang.*;  at //2
+- [x] import java.lang.*;  at //2
 
 
 ___________________________________________________
@@ -990,8 +928,8 @@ The are 1 correct answers
 
 The sequence a, b, c is printed.
 The sequence a, b, c, b is printed.
-x The sequence a, c, b, c is printed.
-The sequence a, c, b is printed.
+The sequence a, c, b, c is printed.
+- [x] The sequence a, c, b is printed.
 None of the above.
 
 ___________________________________________________
@@ -1003,7 +941,7 @@ The are 1 correct answers
 catch
 throws
 finally
-x catch, finally or both
+- [x]  catch, finally or both
 throw
 
 
@@ -1023,7 +961,7 @@ System.out.println(str.length);
 12
 13
 14
-x Compilation error
+- [x]  Compilation error
 Exception at run time
 
 ___________________________________________________
@@ -1037,8 +975,8 @@ Which of the following statements will print true?
 
 The are 2 correct answers
 System.out.println( (a > b) && t);
-x System.out.println( (a > b || b < c) && t);
-x System.out.println( (a < d && b < c) || t);
+- [x] System.out.println( (a > b || b < c) && t);
+- [x]  System.out.println( (a < d && b < c) || t);
 System.out.println( (a > b || t) && (b>c && c>d));
 
 
@@ -1052,10 +990,10 @@ Identify correct statements.
 
 The are 2 correct answers
 
-1 + Math.random()*9 will return a random number between 1 and 10.
+- [x]  1 + Math.random()*9 will return a random number between 1 and 10.
 Math.random()*10 will return a random number between 1 and 10.
-x Math.round(Math.random()*9) will return a random number between 1 and 10.
-1 + Math.round(Math.random()*9) will return a random number between 1 and 10.
+Math.round(Math.random()*9) will return a random number between 1 and 10.
+- [x]  1 + Math.round(Math.random()*9) will return a random number between 1 and 10.
 x Math.round(Math.random()*10) will return a random number between 1 and 10.
 
 
@@ -1089,9 +1027,9 @@ The are 1 correct answers
 
 Data Type of ‘x’ is not valid to be used as an expression for the switch clause.
 The case label 0 must precede case label 1.
-x Each case section must be ended by a break keyword.
+Each case section must be ended by a break keyword.
 The default label must be the last label in the switch statement.
-There is nothing wrong with the code.
+- [x]  There is nothing wrong with the code.
 
 
 ___________________________________________________
@@ -1136,7 +1074,7 @@ The are 1 correct answers
 
 It will print C and B, in that order.
 It will print A and B, in that order.
-It will print B and then throw an Exception.
+- [x] It will print B and then throw an Exception.
 It will print A, B and C in that order.
 
 
@@ -1163,9 +1101,9 @@ for ( ; i>0 ; i -- ) { }
 5. for (int i=0, j=10; i<j; i++, -- j) {;}
 
 1, 2
-x 3, 4
+3, 4
 1, 5
-4, 5
+- [x] 4, 5
 5
 
 
@@ -1195,7 +1133,7 @@ null]
 null
 null
 null]
-x None of the above.
+- [x]   None of the above.
 
 
 
@@ -1208,11 +1146,11 @@ ___________________________________________________
 Which of the following is true about a Java source file?
 The are 3 correct answers
 
- It must have exactly one package statement.
-x It must have zero or more import statements.
-x All classes within the same package as the class are automatically visible to each other without imports.
+ - [x]  It must have exactly one package statement.
+- [x]  It must have zero or more import statements.
+- [x]  All classes within the same package as the class are automatically visible to each other without imports.
 It can only have zero or one package statement.
-x All packages from the Java Standard Edition (J2SE) are imported by default.
+All packages from the Java Standard Edition (J2SE) are imported by default.
 The source file name has no relation to the classes contained in the file.
 
 
@@ -1239,11 +1177,11 @@ public class TestClass
 
 The are 3 correct answers
 
-x Line // 1
+- [x] Line // 1
 Line // 2
 Line // 3
-x Line // 4
-x Line // 5
+- [x] Line // 4
+- [x] Line // 5
 
 
 ___________________________________________________
@@ -1252,9 +1190,9 @@ Which of the following are true about the enhanced for loop?
 The are 2 correct answers
 
 It can iterate over an array or a Collection but not an ArrayList.
-x Using an enhanced for loop prevents the code from going into an infinite loop.
+- [x] Using an enhanced for loop prevents the code from going into an infinite loop.
 Using an enhanced for loop on an array may cause infinite loop.
-x You cannot find out the number of the current iteration while iterating.
+- [x] You cannot find out the number of the current iteration while iterating.
 
 
 
@@ -1283,7 +1221,7 @@ System.out.println("i="+i+" j="+ j);
 }
 
 i=6 j=6
-x i=5 j=6
+- [x] i=5 j=6
 i=5 j=5
 i=6 j=5
 None of these.
@@ -1345,7 +1283,7 @@ System.out.println(s + " again");
 
 }
 
-x [a
+- [x]  [a
 a again
 c
 c again]
@@ -1405,8 +1343,8 @@ ______________________________________________
 Which of the following are features of Java?
 The are 2 correct answers
 
-x It allows you to develop distributed applications.
-It allows you to develop desktop as well as web applications.
+- [x] It allows you to develop distributed applications.
+- [x]  It allows you to develop desktop as well as web applications.
 It allows development of low level components such as device drivers.
-x It is a scripted language.
+ It is a scripted language.
 It is a procedural programming language.
